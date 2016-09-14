@@ -29,8 +29,8 @@ background:url(../../../logowcw.png) no-repeat;
 	height: 100px;
 	float: left;
 	display: inline;}
-	
-	
+
+
 	.nav_mid li {
 	float: left;
 	list-style-type: none;
@@ -41,7 +41,12 @@ background:url(../../../logowcw.png) no-repeat;
 	border-right:1px solid #868686;
 
 	padding: 70px 5px 10px 5px;
-	
+
+}
+/*use this method to change color of parent and child together*/
+.nav_mid li:hover, .nav_mid li:hover a{
+	background-color: #FFFFFF;
+	color : red;
 }
 .nav_mid a:link, .nav_mid a:visited {
 	font-size: 14px;
@@ -49,12 +54,14 @@ background:url(../../../logowcw.png) no-repeat;
 	text-decoration: none;
 	font-weight:bold;
 }
+/*
 .nav_mid a:hover, .nav_mid a:active {
 	font-size: 14px;
 	color: #FFF;
 	text-decoration: none;
 	font-weight:bold;
 }
+*/
 .nav_mid_left {
 	width: 680px;
 }
