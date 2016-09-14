@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.nav {
+	height: 100px;
+}
+
+.nav_left
+{height:100px;
+width:255px;
+background:url(../../../logowcw.png) no-repeat;
+}
+
+.nav_mid {
+	width: 770px;
+	background: #DBDBDB;
+	height:100px;
+	border:1px solid #5F5E5E;
+
+}
+
+.nav_left, .nav_mid, .nav_right {
+	height: 100px;
+	float: left;
+	display: inline;}
+	
+	
+	.nav_mid li {
+	float: left;
+	list-style-type: none;
+	width: 100px;
+
+	font-family: "微软雅黑";
+	text-align: left;
+	border-right:1px solid #868686;
+
+	padding: 70px 5px 10px 5px;
+	
+}
+.nav_mid a:link, .nav_mid a:visited {
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	font-weight:bold;
+}
+.nav_mid a:hover, .nav_mid a:active {
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	font-weight:bold;
+}
+.nav_mid_left {
+	width: 680px;
+}
+.nav_mid_right {
+	width: 300px;
+}
+.nav_mid_left, .nav_mid_right {
+	float: left;
+	display: inline;
+}
